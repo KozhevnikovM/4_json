@@ -1,6 +1,6 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+This program gets at input json file and print to console it's pretty version
 
 # Quickstart
 
