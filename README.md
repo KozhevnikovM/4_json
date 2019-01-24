@@ -1,6 +1,6 @@
 # Prettify JSON
 
-This program gets an input json file and print to console it's pretty version
+This program gets at input json file and print to console it's pretty version
 
 # Quickstart
 
