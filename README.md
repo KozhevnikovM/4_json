@@ -1,6 +1,6 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+This programm prettify json file
 
 # Quickstart
 
