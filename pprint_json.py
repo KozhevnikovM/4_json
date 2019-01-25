@@ -6,7 +6,7 @@ def load_data(filepath):
         file_content = f.read()
     try:
         return json.loads(file_content)
-    except:
+    except FileNotFoundError:
         return 'Invalid Json'
 
 
