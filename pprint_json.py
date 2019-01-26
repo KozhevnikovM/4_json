@@ -20,6 +20,9 @@ if __name__ == '__main__':
         exit('File path not specified or file not exist. Look at README.md for more details')
 
     pretty = pretty_print_json(
-         load_data(file_path)
+        load_data(file_path)
     )
+
+    if not pretty:
+        exit('File not found or has wrong format')
     print(pretty)
