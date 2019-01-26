@@ -1,12 +1,12 @@
 import json, sys, os
 
 def load_data(filepath):
-    with open(filepath, 'r', encoding='utf8') as f:
-        file_content = f.read()
+    with open(filepath, 'r', encoding='utf8') as file:
+        file_content = file.read()
     try:
         return json.loads(file_content)
     except (json.JSONDecodeError, FileNotFoundError):
-        return 'Invalid Json or file not found'
+        return None
 
 
 def pretty_print_json(data_to_json):
